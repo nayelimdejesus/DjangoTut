@@ -5,5 +5,5 @@ from django.shortcuts import render
 def home_view(*args, **kwargs):
     return HttpResponse("<h1> Hello World </h1>") #string of HTML Code
 
-def contact_view(*args, **kwargs):
-    return HttpResponse("<h1> This is the contact page!</h1>")
+# def contact_view(*args, **kwargs):
+#     return HttpResponse("<h1> This is the contact page!</h1>")
